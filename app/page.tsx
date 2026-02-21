@@ -139,7 +139,7 @@ export default function HomePage() {
             </div>
             <div className="w-full max-w-md flex-shrink-0 lg:max-w-lg">
               <ImageWithFallback
-                src="/images/seating-area.jpg"
+                src="/images/Chair.jpg"
                 alt="Calm seating area at Mwanga Mental Health Assessment Hub with comfortable chairs and natural decor"
                 containerClassName="aspect-[4/3] w-full rounded-2xl shadow-lg"
                 priority
