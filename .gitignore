@@ -1,0 +1,7 @@
+# runtime files (should only exist in preview, not in git)
+
+# Common ignores
+node_modules/
+.next/
+.env*.local
+.DS_Store
