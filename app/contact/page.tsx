@@ -36,10 +36,13 @@ const contactDetails = [
   {
     icon: MapPin,
     label: "Location",
-    value: "London, United Kingdom",
+    value: "12 Alexandra Road, Blackpool FY1 6BU",
     href: undefined,
     description: "Assessments available on-site and remotely",
   },
+
+
+  
   {
     icon: Clock,
     label: "Response Time",

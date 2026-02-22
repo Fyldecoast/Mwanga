@@ -61,11 +61,12 @@ function JsonLd() {
     email: "info@mwanga.co.uk",
     url: "https://mwanga.co.uk",
     address: {
-      "@type": "PostalAddress",
-      streetAddress: "12 Alexandra Road",
-      addressLocality: "FY1 6BU",
-      addressCountry: "Blackpool Lancashire, United Kingdom",
-    },
+  "@type": "PostalAddress",
+  streetAddress: "12 Alexandra Road",
+  addressLocality: "Blackpool",
+  addressRegion: "Lancashire",
+  postalCode: "FY1 6BU",
+}
     medicalSpecialty: "Psychiatric",
     priceRange: "$$",
   }

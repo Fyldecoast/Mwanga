@@ -1,11 +1,10 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-  images: {
-    unoptimized: true,
-  },
-}
+const repo = "Mwanga";
 
-export default nextConfig
+const nextConfig = {
+  output: "export",
+  basePath: `/${repo}`,
+  assetPrefix: `/${repo}/`,
+  images: { unoptimized: true },
+};
+
+export default nextConfig;
