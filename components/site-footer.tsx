@@ -91,8 +91,7 @@ export function SiteFooter() {
               </li>
               <li className="flex items-start gap-2 text-sm text-mwanga-text-muted">
                 <MapPin className="mt-0.5 size-4 shrink-0" aria-hidden="true" />
-                London, United Kingdom
-              </li>
+                12 Alexandra Road, Blackpool, FY1 6BU
             </ul>
           </div>
         </div>
