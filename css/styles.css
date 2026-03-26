@@ -623,3 +623,113 @@ a{color:inherit}
 .btn-primary:hover {
   background: #082b51;
 }
+
+
+/*MOBILE VIEW PARTNERSHIPS CSS*/
+
+/* MOBILE RESPONSIVE FIXES */
+@media (max-width: 768px) {
+
+  /* General spacing */
+  body {
+    font-size: 15px;
+  }
+
+  .container {
+    padding: 0 1rem;
+  }
+
+  /* NAVIGATION */
+  .nav-wrap {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .site-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .site-nav a {
+    font-size: 0.9rem;
+  }
+
+  /* HERO SECTION */
+  .investment-hero {
+    padding: 3rem 1rem;
+  }
+
+  .investment-hero-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .investment-hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .lead {
+    font-size: 0.95rem;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+  }
+
+  /* CARDS / SECTIONS */
+  .investment-grid,
+  .opportunity-grid,
+  .funding-grid,
+  .packages-grid,
+  .revenue-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* PACKAGE CARDS */
+  .package-card {
+    padding: 1.25rem;
+  }
+
+  .package-card:hover {
+    transform: none; /* disable hover jump on mobile */
+  }
+
+  .package-card.featured,
+  .package-card.gold,
+  .package-card.bronze {
+    transform: none; /* prevent scaling breaking layout */
+  }
+
+  /* BUTTONS */
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .package-btn {
+    width: 100%;
+  }
+
+  /* CTA SECTION */
+  .investment-cta-inner {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-details {
+    margin-top: 1rem;
+  }
+
+  /* FOOTER */
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    text-align: center;
+  }
+}
