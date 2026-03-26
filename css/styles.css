@@ -12,6 +12,15 @@
   --radius:12px;
   --shadow: 0 10px 25px rgba(0,0,0,.06);
 }
+/*mobile navigation*/
+.mobile {
+  display: none;
+}
+
+.mobile.is-open {
+  display: block;
+}
+
 
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}

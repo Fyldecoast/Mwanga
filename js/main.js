@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (menuBtn && mobileNav) {
     menuBtn.addEventListener("click", () => {
-      const isOpen = mobileNav.classList.toggle("active");
+      mobileNav.classList.toggle("is-open");
       menuBtn.setAttribute("aria-expanded", isOpen ? "true" : "false");
     });
   }
