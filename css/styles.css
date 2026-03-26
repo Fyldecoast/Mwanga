@@ -338,3 +338,288 @@ a{color:inherit}
   text-decoration: none;
   margin-left: 1rem;
 }
+
+/*partnership navigation*/
+.investment-hero {
+  padding: 5rem 1.25rem 4rem;
+  background:
+    radial-gradient(circle at top left, rgba(46, 125, 50, 0.12), transparent 30%),
+    linear-gradient(135deg, #0b3a6e 0%, #123f76 55%, #1a4e8b 100%);
+  color: #fff;
+}
+
+.investment-hero-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+.eyebrow {
+  display: inline-block;
+  margin-bottom: 0.9rem;
+  padding: 0.4rem 0.85rem;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.14);
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.investment-hero h1,
+.section-heading h2 {
+  margin: 0 0 1rem;
+}
+
+.investment-hero h1 {
+  font-size: clamp(2rem, 4vw, 3.3rem);
+  line-height: 1.08;
+}
+
+.lead {
+  max-width: 680px;
+  font-size: 1.08rem;
+  line-height: 1.7;
+  opacity: 0.96;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.75rem;
+}
+
+.proposal-card {
+  display: flex;
+  align-items: stretch;
+}
+
+.proposal-card-inner {
+  width: 100%;
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.15);
+  backdrop-filter: blur(6px);
+  border-radius: 24px;
+  padding: 2rem;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+.proposal-card h2 {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.mini-label {
+  margin: 0;
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
+
+.investment-section {
+  padding: 4.5rem 1.25rem;
+  background: #fff;
+}
+
+.investment-section-alt {
+  background: #f6f9fc;
+}
+
+.funding-band {
+  background: linear-gradient(180deg, #f7fafc 0%, #eef5fb 100%);
+}
+
+.investment-cta-band {
+  background: #0b3a6e;
+  color: #fff;
+}
+
+.section-heading {
+  max-width: 760px;
+  margin: 0 auto 2.2rem;
+  text-align: center;
+}
+
+.section-heading .eyebrow {
+  background: rgba(11, 58, 110, 0.08);
+  color: #0b3a6e;
+}
+
+.investment-grid,
+.opportunity-grid,
+.funding-grid,
+.packages-grid,
+.revenue-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.investment-grid {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.opportunity-grid,
+.funding-grid,
+.revenue-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.packages-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.investment-card,
+.opportunity-box,
+.funding-card,
+.package-card,
+.revenue-item {
+  background: #fff;
+  border: 1px solid rgba(11, 58, 110, 0.08);
+  border-radius: 22px;
+  padding: 1.5rem;
+  box-shadow: 0 14px 34px rgba(11, 58, 110, 0.06);
+}
+
+.investment-card h3,
+.opportunity-box h3,
+.funding-card h3,
+.package-card h3,
+.revenue-item h3 {
+  margin-top: 0;
+  color: #0b3a6e;
+}
+
+.investment-card ul,
+.package-card ul {
+  padding-left: 1.1rem;
+  margin-bottom: 0;
+}
+
+.package-card {
+  position: relative;
+}
+
+.package-card.featured {
+  border: 2px solid #2e7d32;
+  transform: translateY(-4px);
+}
+
+.package-label {
+  display: inline-block;
+  margin-bottom: 0.9rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  background: #eef4f8;
+  color: #0b3a6e;
+  font-weight: 700;
+}
+
+.revenue-number {
+  display: inline-block;
+  margin-bottom: 0.8rem;
+  font-size: 0.9rem;
+  font-weight: 800;
+  color: #2e7d32;
+}
+
+.investment-cta-inner {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+.cta-details {
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 22px;
+  padding: 1.5rem;
+}
+
+.cta-details p {
+  margin: 0 0 0.8rem;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 0.85rem 1.25rem;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.btn-primary {
+  background: #2e7d32;
+  color: #fff;
+}
+
+.btn-secondary {
+  background: #fff;
+  color: #0b3a6e;
+}
+
+@media (max-width: 980px) {
+  .investment-hero-grid,
+  .investment-cta-inner,
+  .investment-grid,
+  .opportunity-grid,
+  .funding-grid,
+  .packages-grid,
+  .revenue-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .package-card.featured {
+    transform: none;
+  }
+}
+
+.package-btn {
+  display: block;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.package-card ul {
+  margin-top: 1rem;
+}
+
+.package-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.package-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+}
+
+/* Bronze */
+.package-card.bronze {
+  border: 2px solid #e0a96d;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+/* Silver */
+.package-card.featured {
+  border: 2px solid #d1d5db;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+/* Gold */
+.package-card.gold {
+  border: 2px solid #f5d36b;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+.btn-primary {
+  background: #0b3a6e;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background: #082b51;
+}
